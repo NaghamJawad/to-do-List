@@ -1,0 +1,27 @@
+<!DOCTYPE html height="100%" width="100%">
+<html lang="en" height="100%" width="100%">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+    <form action="" id="form">
+        <input type="text" placeholder="Enter Text" id="textbox" required>
+        <button type="submit" id="button">Submit</button>
+    </form>
+    <button type="click" id="delallbutton">Delete All</button>
+    <input type = "text" id="texttosearch" placeholder="Search...">
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="incompleted">Incompleted</option>
+    </select>
+    <div class="container">
+        <ul id="listofitem"><b>Tasks</b></ul>
+    </div>
+    <button id="save">Save</button>
+
+ <script src="todo.js"></script>
+</body>
+</html>
